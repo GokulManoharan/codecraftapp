@@ -7,7 +7,7 @@ function Mode(props) {
     return (
         <div className="mode" >
          <Title title="Mode" />
-         <Modetable />
+         <Modetable timeOfDay="Morning" image="morningWh" percentage='50%'/>
         </div>
     )
 }
