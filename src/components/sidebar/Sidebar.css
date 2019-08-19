@@ -1,0 +1,6 @@
+.sideBar {
+    position: fixed;
+    height: 100%;
+    width: 380px;
+    background-image:  linear-gradient(to bottom, #AD6BFF 0%, #958CFC 30%,#9291FB 100%,#8D98FB 85%,#74BCF7 0%);
+}

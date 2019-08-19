@@ -1,0 +1,22 @@
+.title{
+    font-size: 15px;
+    position: fixed;
+    height: 100%;
+    color: #AC6CFF;
+    text-align: left;
+    left: 450px;
+    text-transform: uppercase;
+    font-family: Montserrat-Bold;
+    letter-spacing: 1.5px;
+    width: calc(100% - 380px);
+}
+
+.title:before{
+    position: absolute;
+    content:"";
+    height: 1px;
+    top: 27px;
+    left: 77px;
+    width:calc(100% - 275px);
+    background-color: #AC6CFF;
+}

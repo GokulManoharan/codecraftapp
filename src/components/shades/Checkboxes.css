@@ -1,0 +1,8 @@
+.checkBoxes{
+    position: fixed;
+    display: inline-block;
+    top: 253px;
+    /* text-align: left; */
+    left: 450px;
+    width: calc(100% - 450px);
+}
