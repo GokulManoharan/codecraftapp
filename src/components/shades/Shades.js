@@ -6,8 +6,8 @@ import './Shades.css'
 function Shades() {
     return (
         <div className="shades">
-        <Title title="Shades"/>
-        <Checkboxes />
+            <Title title="Shades"/>
+            <Checkboxes />
         </div>
     )
 }

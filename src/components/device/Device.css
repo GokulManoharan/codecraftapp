@@ -18,6 +18,8 @@
     display: inline-block;
     width: 43px;
     height: 23px;
+    border-radius: 10px;
+    box-shadow:2px 5px 10px #c9c7c7;
   }
   
   .switch input { 

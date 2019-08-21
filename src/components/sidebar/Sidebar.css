@@ -9,7 +9,7 @@
 .sideBar::-webkit-scrollbar { width: 0 !important }
 
 .sideBar .backBtn{
-    position: absolute;
+    position: fixed;
     left: 10px;
     text-align: left;
 }

@@ -2,4 +2,5 @@
 
 tr:hover{
     background-image: linear-gradient(to right, #AD6BFF, #74BCF7);
+    box-shadow: 0px 0px 20px #c9c7c7;
 }
