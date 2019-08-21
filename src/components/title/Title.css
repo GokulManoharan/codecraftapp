@@ -1,7 +1,6 @@
 .title{
     font-size: 15px;
     position: fixed;
-    height: 100%;
     color: #AC6CFF;
     text-align: left;
     left: 450px;
@@ -16,7 +15,7 @@
     content:"";
     height: 1px;
     top: 27px;
-    left: 77px;
+    left: 100px;
     width:calc(100% - 275px);
     background-color: #AC6CFF;
 }

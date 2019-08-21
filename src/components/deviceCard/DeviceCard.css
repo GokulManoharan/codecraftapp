@@ -1,0 +1,19 @@
+.deviceCard{
+    position: relative;
+    margin-top: 80px;
+    width: 190px;
+    height: 90px;
+    margin-left: 110px;
+    background-color: white;
+}
+
+.deviceImage{
+    position: absolute;
+    left: -80px;
+    top: -20px;
+}
+
+.deviceCard img{
+    width:100px;
+    height:100px;
+}

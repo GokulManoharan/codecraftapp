@@ -2,5 +2,14 @@
     position: fixed;
     height: 100%;
     width: 380px;
+    overflow-y: auto;
     background-image:  linear-gradient(to bottom, #AD6BFF 0%, #958CFC 30%,#9291FB 100%,#8D98FB 85%,#74BCF7 0%);
+}
+
+.sideBar::-webkit-scrollbar { width: 0 !important }
+
+.sideBar .backBtn{
+    position: absolute;
+    left: 10px;
+    text-align: left;
 }

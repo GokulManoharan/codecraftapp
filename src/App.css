@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -21,6 +19,12 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.content{
+  position:fixed;
+  left:450px;
+  width: calc(100% - 100px);
 }
 
 @keyframes App-logo-spin {
