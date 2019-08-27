@@ -1,3 +1,19 @@
+.tdImage{
+    text-align: left;
+    width:50px;
+}
+
+.tdTimeOfDay{
+    text-align: left;
+}
+
+.tdPercentage{
+    text-align: right;
+}
+
+.tdTick{
+    text-align: right;
+}
 
 
 tr:hover{

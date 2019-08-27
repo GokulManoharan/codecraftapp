@@ -62,19 +62,21 @@ class DeviceCard extends React.Component {
     render(){
         return (
             <div style={{"position":"relative"}}>
-            <div style={this.state.deviceCard} className={this.state.animateCard(this.state.isImageClicked)} >
-                <div className="deviceName">
+            <div className="deviceCard"
+            // style={this.state.deviceCard} className={this.state.animateCard(this.state.isImageClicked)} id="deviceCard"
+             >
+                <div className="deviceName" id="deviceName">
                     <h4>{this.props.deviceName}</h4>
                     <p>{this.props.whereTo}</p>
                 </div>
                 
             </div>
-            <div style={this.state.deviceImage} className={this.state.animateImage(this.state.isImageClicked)} >
+            <div style={this.state.deviceImage} className={this.state.animateImage(this.state.isImageClicked)} id="deviceImage" >
             <a href="#" onClick= {(e) => {
                 e.preventDefault()
                 this.handleImageClick(!this.state.isImageClicked)
             }} >
-                <img src={this.imageUrl(this.props.deviceName)} alt="Product image" style={this.state.deviceCardImage} />
+                <img src={this.imageUrl(this.props.deviceName)} alt="Product image" style={this.state.deviceCardImage} id="deviceCardImage" />
             </a>
         </div>
         </div>

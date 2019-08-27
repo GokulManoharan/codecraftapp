@@ -1,0 +1,114 @@
+@media only screen and (max-width: 1200px) {
+  
+  
+  }
+
+  @media only screen and (max-width: 1023px) {
+  .sideBar {
+        width: 210px;
+  }
+  .content{
+    left: 280px;
+    width:100%;
+  }
+  .device{
+    width: calc(100% - 280px);
+  }
+  .plusDk{
+      right: 0px;
+  }
+  .title{
+      width:calc(100% - 305px)
+  }
+  .title:before{
+    width: calc(100% - 150px);
+  }
+  .switch{
+      right : 100px;
+  }
+  body #deviceCard{
+      height: 100px;
+      width: 100px;
+      margin-left: 60px;
+  }
+  #deviceImage{
+      top:-25px;
+  }
+  .checkBoxes{
+    width: calc(100% - 170px);
+  }
+  .mode table{
+    width: calc(100% - 350px);
+  }
+  .deviceCard{
+      height:100px;
+      width:100px;
+      margin-left: 70px;
+  }
+  .deviceCard h4{
+    font-size: 12px;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+  }
+  .deviceName p {
+    display: none;
+}
+
+}
+  
+  @media only screen and (max-width: 767px) {
+    .checkBoxes {
+        width: calc(100% - 150px);
+    }
+    .content {
+        left: 260px;
+        width: 100%;
+    }
+    .switch {
+        right: 22px;
+    }
+    .plusDk {
+        right: -80px;
+    }
+    .title {
+        width: calc(100% - 250px);
+    }
+  }
+
+  @media only screen and (max-width: 608px) {
+    .content {
+        left: 240px;
+    }
+    .checkBoxes {
+        width: calc(100% - 180px);
+    }
+    .mode table {
+        width: calc(100% - 299px);
+    }
+  }
+
+  @media only screen and (max-width: 570px) {
+    .sideBar .backBtn:after {
+        position: fixed;
+        content: '';
+        left: 10px;
+        text-align: left;
+    }
+    .plusDk {
+        background-color: white;
+    }
+    /* .content {
+        left: 240px;
+    }
+    .checkBoxes {
+        width: calc(100% - 180px);
+    }
+    .mode table {
+        width: calc(100% - 299px);
+    } */
+  }
+
+  @media only screen and (max-width: 480px) {
+   
+  }

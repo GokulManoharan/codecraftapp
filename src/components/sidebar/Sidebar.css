@@ -3,7 +3,7 @@
     height: 100%;
     width: 380px;
     overflow-y: auto;
-    background-image:  linear-gradient(to bottom, #AD6BFF 0%, #958CFC 30%,#9291FB 100%,#8D98FB 85%,#74BCF7 0%);
+    background-image:  linear-gradient(to bottom,#9291FB 100%,#8D98FB 85%,#74BCF7);
 }
 
 .sideBar::-webkit-scrollbar { width: 0 !important }
@@ -13,3 +13,14 @@
     left: 10px;
     text-align: left;
 }
+
+/* .sideBar::before {
+    position : fixed;
+    content: "";
+    top:0;
+    left: 0;
+    height: 100px;
+    width:380px;
+    background-image:linear-gradient(to bottom, #AD6BFF, #958CFC );
+    z-index: -1;
+} */

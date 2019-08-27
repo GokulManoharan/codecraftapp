@@ -20,17 +20,17 @@ function Modetable(props) {
 
     return (
                 <tr className="modeRow">
-                    <td>
+                    <td className="tdImage">
                         <img src={imageUrl(props.timeOfDay)}
                         />
                     </td>
-                    <td>
+                    <td className="tdTimeOfDay">
                         {props.timeOfDay}
                     </td>
-                    <td>
+                    <td className="tdPercentage">
                         {props.percentage}
                     </td>
-                    <td>
+                    <td className="tdTick">
                         <img src={tickWhite} /> 
                     </td>
                 </tr>

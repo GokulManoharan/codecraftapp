@@ -3,11 +3,10 @@
     position: fixed;
     color: #AC6CFF;
     text-align: left;
-    left: 450px;
     text-transform: uppercase;
     font-family: Montserrat-Bold;
     letter-spacing: 1.5px;
-    width: calc(100% - 380px);
+    width: calc(100% - 400px);
 }
 
 .title:before{
